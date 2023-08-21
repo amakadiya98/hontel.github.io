@@ -1,0 +1,39 @@
+.theme-button {
+  background-color: #fc6070;
+  color: #fff;
+  border-color: #fc6070;
+}
+
+.theme-button:hover {
+  background-color: #912a34;
+  border-color: #912a34;
+}
+
+.item-box-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
+  padding: 1.5rem 0;
+  margin-bottom: 1.5rem;
+}
+
+.item-box-wrapper .item-box {
+  flex: 1;
+}
+
+.heading-text {
+  color: #6366f1;
+}
+
+.para-text {
+  color: #c94af1;
+}
+
+@media (max-width: 620px) {
+  .item-box-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+  }
+}
