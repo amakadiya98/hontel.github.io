@@ -1,3 +1,7 @@
+.navbar{
+  background-color: #f5f5f5;
+}
+
 .theme-button {
   background-color: #fc6070;
   color: #fff;
@@ -23,11 +27,11 @@
 }
 
 .heading-text {
-  color: #024aac;
+  color: #673ab7;
 }
 
 .para-text {
-  color: #c94af1;
+  color: #e72892;
 }
 
 @media (max-width: 620px) {
