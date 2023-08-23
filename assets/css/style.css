@@ -1,5 +1,5 @@
 .navbar{
-  background-color: #f5f5f5;
+  background-color: #ffff;
 }
 
 .theme-button {
@@ -32,6 +32,15 @@
 
 .para-text {
   color: #e72892;
+}
+.swiper-data{
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  overflow: hidden;
+  list-style: none;
+  padding: 0;
+  z-index: 1;
 }
 
 @media (max-width: 620px) {
