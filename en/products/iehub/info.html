@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Hontrel</title>
-
+    <link rel="icon" type="image/x-icon" href="../../../assets/favicon/favicon.ico" />
     <!-- SEO Meta Tags-->
     <meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
     <meta name="keywords" content="bootstrap, business, creative agency, construction, services, e-commerce, shopping cart, mobile app showcase, multipurpose, shop, ui kit, marketing, seo, landing, html5, css3, javascript, gallery, slider, touch, creative">
@@ -13,22 +13,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon and Touch Icons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../../../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../../../assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="../../../assets/favicon/safari-pinned-tab.svg" color="#6366f1">
-    <link rel="shortcut icon" href="https://static.wixstatic.com/media/63a415_7edc09684dbf459b9067d65c01a50122~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/63a415_7edc09684dbf459b9067d65c01a50122~mv2.png">
-    <meta name="msapplication-TileColor" content="#080032">
-    <meta name="msapplication-config" content="../../../assets/favicon/browserconfig.xml">
+    
     <meta name="theme-color" content="#ffffff">
 
     <!-- Vendor Styles-->
     <link rel="stylesheet" media="screen" href="../../../assets/vendor/boxicons/css/boxicons.min.css"/>
     <link rel="stylesheet" media="screen" href="../../../assets/vendor/swiper/swiper-bundle.min.css"/>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Theme Styles + Bootstrap-->
     <link rel="stylesheet" media="screen" href="../../../assets/css/theme.min.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
 
     <!-- Page loading styles -->
     <style>
@@ -164,11 +158,50 @@
               <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
             <div class="offcanvas-body">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-center">
                 <li class="nav-item">
                     <a href="/en/aboutus/info.html" class="nav-link">About us</a>
                   </li>
-                <li class="nav-item dropdown">
+                  <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                    <div class="dropdown-menu">
+                      <div class="d-lg-flex pt-lg-3">
+                        <div class="mega-dropdown-column">
+                          <a href="/hontrel.github.io/en/products/iehub/info.html" class="text-img-part d-flex align-items-start product-link">
+                            <div class="img-part">
+                              <img src="../../../assets/img/ie-hub.jpg" alt="product">
+                            </div>
+                            <div class="text-part ms-3">
+                              <h6 class="mb-2">IEHUB.AI</h6>
+                              <p class="ms-2">Integrated ELM platform for all the engineering needs. Click to know more</p>
+                            </div>
+                          </a>
+                          <a href="" class="text-img-part d-flex align-items-start product-link">
+                            <div class="img-part">
+                              <img src="../../../assets/img/md-gen.jpg" alt="product">
+                            </div>
+                            <div class="text-part ms-3">
+                              <h6 class="mb-2">MDGen</h6>
+                              <p class="ms-2">Standardize your items with technical details. Click to know more</p>
+                            </div>
+                          </a>
+                         
+                        </div>
+                        <div class="mega-dropdown-column">
+                          <a href="" class="text-img-part d-flex align-items-start product-link">
+                            <div class="img-part">
+                              <img src="../../../assets/img/in-search.jpg" alt="product">
+                            </div>
+                            <div class="text-part ms-3">
+                              <h6 class="mb-2">INSearch</h6>
+                              <p class="ms-2">Perform instant search for your confidential information using our pre-trained AI/ML models</p>
+                            </div>
+                          </a>
+                        </div>
+                      </div>
+                    </div>
+                    </li>
+                <!-- <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown" aria-current="page">Product</a>
                   <div class="dropdown-menu p-0">
                     <div class="d-lg-flex">
@@ -182,7 +215,7 @@
                       
                     </div>
                   </div>
-                </li>
+                </li> -->
                 <li class="nav-item dropdown">
                   <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
                   <div class="dropdown-menu">
@@ -212,7 +245,7 @@
                       <li><a href="/en/resources/articles/info.html" class="dropdown-item">Articles</a></li>
                     </ul>
                   </li>
-               
+                
               </ul>
             </div>
            
@@ -225,71 +258,499 @@
 
 
       <section class="container pt-5 mt-5">
-        ELM Solutions
-      </section>
-    </main>
-
-    <!-- Footer -->
-    <footer class="footer dark-mode bg-dark border-top border-light pt-5 pb-4 pb-lg-5">
-        <div class="container pt-lg-4">
-          <div class="row pb-5">
-            <div class="col-lg-4 col-md-6">
-              <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-                <img src="../../../assets/img/logo.png" width="130" alt="Silicon" >
-              </div>
-              <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
-              <form class="needs-validation" novalidate>
-                <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
-                <div class="input-group">
-                  <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
-                  <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                  <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
-                  <button type="submit" class="btn btn-primary">Subscribe</button>
-                </div>
-              </form>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="#"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Products</a></li>
+            <li class="breadcrumb-item active" aria-current="page">IEHUB.AI</li>
+          </ol>
+        </nav>
+        <div class="row align-items-center">
+          <div class="col-md-6 order-md-2 mb-2 mb-md-0 pb-4 pb-md-0">
+            <div
+              class="d-flex align-items-center"
+            >
+              <img
+                src="../../../assets/img/product-banner.jpg"
+                alt="Screen"
+              />
             </div>
-            <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-              <div id="footer-links" class="row">
-                <div class="col-lg-4">
-                  <h6 class="mb-2">
-                    <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>
-                  </h6>
-                  <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                    <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Product</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Markets</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Resources</a></li>
-                    </ul>
+          </div>
+          <div class="col-md-6 order-md-1 pb-md-4">
+            <h2 class="pb-3 heading-text">
+              Unified Platform to manage the engineering life cycle needs
+            </h2>
+            <p class="mb-0 pb-1 para-text">
+              Enable your engineering team with IEHUB.AI and take control of your engineering data and content for increasing your operational efficiency.
+            </p>
+            <div class="d-flex justify-content-start w-75 mt-4 mb-3">
+              <a href="#" class="btn btn-danger theme-button"> Get Demo </a>
+            </div>
+            <div class="border rounded-3 mb-4 mb-lg-5 mt-4">
+              <div class="row row-cols-1 row-cols-sm-2 g-0">
+                <div class="col d-flex align-items-center border-end-sm border-bottom p-3">
+                  <i class="fa fa-database" style="font-size:34px; opacity:0.6"></i>
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Content Management</h3>
+                    <p class="fs-xs mb-0">Organics your engineering data</p>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-3">
-                  <h6 class="mb-2">
-                    <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
-                  </h6>
-                  <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                    <ul class="nav flex-column mb-2 mb-lg-0">
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                    </ul>
+                <div class="col d-flex align-items-center border-bottom p-3">
+                  <i class="fa fa-book" style="font-size:34px; opacity:0.6"></i>
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Files Management</h3>
+                    <p class="fs-xs mb-0">Take complete control with Revision</p>
                   </div>
                 </div>
-                <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                  <h6 class="mb-2">Contact Us</h6>
-                  <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
+                <div class="col d-flex align-items-center border-end-sm p-3">
+                  <i class="fa fa-paper-plane-o" style="font-size:34px; opacity:0.6"></i>
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Enquiry Management</h3>
+                    <p class="fs-xs mb-0">Get structure for engineering enquiries</p>
+                  </div>
+                </div>
+                <hr class="d-sm-none">
+                <div class="col d-flex align-items-center p-3">
+                  <i class="fa fa-address-book-o" style="font-size:32px; opacity:0.6"></i>
+                  <div class="ps-2 ms-1">
+                    <h3 class="h6 mb-0">Supplier Management </h3>
+                    <p class="fs-xs mb-0">Stay ahead with supplier details</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
-          <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-            &copy; All rights reserved. Made by 
-            <a class="nav-link d-inline-block p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a>
-          </p>
         </div>
-      </footer>
+      </section>
+      <section class="my-5 prouct-info-part">
+        <div class="container">
+          <h2 class="heading-text text-center">
+            Stay Local and Get Connected Globally
+          </h2>
+          <p class="mb-0 pb-1 para-text text-center">
+            Streamline the collaboration and execute engineering from any where
+          </p>
+          <div class="row align-items-center my-5">
+            <div class="col-md-4 pb-md-4">
+
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/chart.jpg" class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Scale as you go</h3>
+                    <p class="fs-sm mb-0">Handle the workload spikes with ease through our multitenant architecture. Extend your information to 3rd parties and collect the deliverables with minimal training</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/time.jpg"   class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">24 hrs output with daylight savings</h3>
+                    <p class="fs-sm mb-0">Get your global teams connected, upload, share & use the latest information without latency for 24x7 output</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/rocket.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Navigate Attrition with Ease</h3>
+                    <p class="fs-sm mb-0">Bring the new teams up to speed within short period of time and make your organization platform dependent</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 offset-md-1 mb-2 mb-md-0 pb-4 pb-md-0">
+              <div
+                class="d-flex align-items-center"
+              >
+                <img
+                  src="../../../assets/img/stay-local.jpg"
+                  alt="Screen"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-5 pt-5 prouct-info-part">
+        <div class="container">
+          <h2 class="heading-text text-center">
+            Set Standard and Operate efficiently
+          </h2>
+          <p class="mb-0 pb-1 para-text text-center">
+            Streamline the collaboration and execute engineering from any where
+          </p>
+          <div class="row align-items-center my-5">
+            <div class="col-md-7 mb-2 mb-md-0 pb-4 pb-md-0">
+              <div
+                class="d-flex align-items-center"
+              >
+                <img
+                  src="../../../assets/img/set-standard.jpg"
+                  alt="Screen"
+                />
+              </div>
+            </div>
+            <div class="col-md-4 offset-md-1  pb-md-4">
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/star-content.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Standard Content Structure</h3>
+                    <p class="fs-sm mb-0">Customize your standard content structure through our platform</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/basket.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Eliminate Duplicates</h3>
+                    <p class="fs-sm mb-0">Through our platform just link and unlink the sharing content between entities to eliminate duplicate, save space, remove ambiguity</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/badge.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Cost of Quality</h3>
+                    <p class="fs-sm mb-0">Reduce the cost of quality through our organized structure and benefit from the operational savings</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+           
+          </div>
+        </div>
+      </section>
+      <section class="my-5 pt-5 prouct-info-part">
+        <div class="container">
+          <h2 class="heading-text text-center">
+            Your Data, Your Asset
+          </h2>
+          <p class="mb-0 pb-1 para-text text-center">
+            Streamline the collaboration and execute engineering from any where
+          </p>
+          <div class="row align-items-center my-5">
+            <div class="col-md-4 pb-md-4">
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/scan-search.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Data Mining</h3>
+                    <p class="fs-sm mb-0">Search and mine your data faster than ever before</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/star-hand.jpg"   class="product-icon" alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Data Driven Decision</h3>
+                    <p class="fs-sm mb-0">Focus on the big ticket items and make data driven decision through our dashboard metrics</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/plant-bulb.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Re-use</h3>
+                    <p class="fs-sm mb-0">Re-use your proprietary data without reinventing the same wheels</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-7 offset-md-1 mb-2 mb-md-0 pb-4 pb-md-0">
+              <div
+                class="d-flex align-items-center"
+              >
+                <img
+                  src="../../../assets/img/your-data.jpg"
+                  alt="Screen"
+                />
+              </div>
+            </div>
+            
+           
+          </div>
+        </div>
+      </section>
+      <section class="my-5 pt-5 prouct-info-part">
+        <div class="container">
+          <h2 class="heading-text text-center">
+            Get Secured with Role Based Access Control
+          </h2>
+          <p class="mb-0 pb-1 para-text text-center">
+            Streamline the collaboration and execute engineering from any where
+          </p>
+          <div class="row align-items-center my-5">
+            <div class="col-md-7  mb-2 mb-md-0 pb-4 pb-md-0">
+              <div
+                class="d-flex align-items-center"
+              >
+                <img
+                  src="../../../assets/img/get-secure.jpg"
+                  class="w-100"
+                  alt="Screen"
+                />
+              </div>
+            </div>
+            <div class="offset-md-1 col-md-4 pb-md-4">
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/target.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Single Sign On</h3>
+                    <p class="fs-sm mb-0">Eliminate the need for multiple logins and have your single active directory account to control and protect your data</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/shield.jpg"  class="product-icon"  alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Protect Your Data</h3>
+                    <p class="fs-sm mb-0">Control the user actions through our role based access control and have your data protected</p>
+                  </div>
+                </div>
+              </div>
+              <div class="pb-2 mb-4 mb-xl-5">
+                <div class="img-icon-part d-flex align-items-center">
+                  <img src="../../../assets/img/card-badge.jpg"   class="product-icon" alt="Icon">
+                  <div class="text-part ms-5">
+                    <h3 class="h5 pt-1 my-2">Get Compliance Easy</h3>
+                    <p class="fs-sm mb-0">Through the secured, controlled and organized approach your compliance with various organization will be easy</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            
+            
+           
+          </div>
+        </div>
+      </section>
+      <section class="container mb-5">
+        <div class="row justify-content-center text-center pt-2 pt-md-4 pt-lg-5 pb-4 pb-lg-5 mb-1">
+          <div class="col-xl-6 col-lg-7 col-md-9 col-sm-11 pt-xl-3">
+            <h2 class="heading-text text-center">
+              Transparent Pricing for You
+            </h2>
+            <p class="mb-0 pb-1 para-text text-center">
+              We offer competitive and transperent pricing with great features
+            </p>
+          </div>
+        </div>
+        <div class="table-responsive-lg">
+          <div class="d-flex align-items-center pb-4">
+        
+            <!-- Pricing plan -->
+            <div class="bg-primary rounded-3 shadow-primary p-4" style="width: 36%; min-width: 18rem;">
+              <div class="card bg-transparent border-light py-3 py-sm-4 py-lg-5">
+                <div class="card-body text-light text-center">
+                  <h3 class="text-light mb-2">Basic License</h3>
+                  <div class="fs-lg opacity-70 pb-4 mb-3">Best for the start</div>
+                  <div class="display-5 mb-1">$25 USD</div>
+                  <div class="opacity-50 mb-5">Per Month Per User</div>
+                </div>
+                <div class="card-footer border-0 text-center pt-0 pb-4">
+                  <a href="#" class="btn btn-light btn-lg shadow-secondary">Get started now</a>
+                </div>
+              </div>
+            </div>
+            <div class="row flex-nowrap border rounded-3 rounded-start-0 shadow-sm g-0" style="width: 64%; min-width: 32rem;">
+        
+              <!-- Pricing plan -->
+              <div class="col">
+                <div class="card bg-light h-100 border-0 border-end rounded-0 py-3 py-sm-4 py-lg-5">
+                  <div class="card-body text-center">
+                    <h3 class="mb-2">Standard License</h3>
+                    <div class="fs-lg pb-4 mb-3">For companies which want to take coverage of managing the entire engineering content</div>
+                    <div class="display-5 text-dark mb-1">$52 USD</div>
+                    <div class="text-muted mb-5">Per Month Per User</div>
+                  </div>
+                  <div class="card-footer border-0 text-center pt-0 pb-4">
+                    <a href="#" class="btn btn-outline-primary btn-lg">Get started now</a>
+                  </div>
+                </div>
+              </div>
+        
+              <!-- Pricing plan -->
+              <div class="col">
+                <div class="card bg-light h-100 border-0 rounded-start-0 py-3 py-sm-4 py-lg-5">
+                  <div class="card-body text-center">
+                    <h3 class="mb-2">Premium License</h3>
+                    <div class="fs-lg pb-4 mb-3">For organization which want to take advantage of AI</div>
+                    <div class="display-5 text-dark mb-1">$75 USD</div>
+                    <div class="text-muted mb-5">Per Month Per User</div>
+                  </div>
+                  <div class="card-footer border-0 text-center pt-0 pb-4">
+                    <a href="#" class="btn btn-outline-primary btn-lg">Get started now</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="bg-secondary py-5 ready-started">
+        <div class="container text-center py-1 py-md-4 py-lg-5">
+          <h2 class="h1 mb-4 text-light">Ready to Get Started?</h2>
+          <p class="lead pb-3 mb-3 text-light">Organize your tasks with a 14-day free trial</p>
+          <a href="#" class="btn btn-primary btn-lg mb-1">Get started</a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer border-top pt-5 pb-4 pb-lg-5">
+      <div class="container pt-lg-4">
+        <div class="row pb-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+              <img src="../../../assets/img/logo.png" width="180" alt="Silicon" />
+            </div>
+            <p class="fs-sm pb-lg-3 mb-4">
+              Proin ipsum pharetra, senectus eget scelerisque varius pretium
+              platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi
+              sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
+              elementum dolor ullamcorper sodales ultrices eros.
+            </p>
+            <form class="needs-validation" novalidate>
+              <label for="subscr-email" class="form-label"
+                >Subscribe to our newsletter</label
+              >
+              <div class="input-group">
+                <input
+                  type="email"
+                  id="subscr-email"
+                  class="form-control rounded-start ps-5"
+                  placeholder="Your email"
+                  required
+                />
+                <i
+                  class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"
+                ></i>
+                <div class="invalid-tooltip position-absolute top-100 start-0">
+                  Please provide a valid email address.
+                </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0"
+          >
+            <div id="footer-links" class="row">
+              <div class="col-lg-4">
+                <h6 class="mb-2">
+                  <a
+                    href="#useful-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Useful Links</a
+                  >
+                </h6>
+                <div
+                  id="useful-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Product</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Markets</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Resources</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-3">
+                <h6 class="mb-2">
+                  <a
+                    href="#social-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Socials</a
+                  >
+                </h6>
+                <div
+                  id="social-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Twitter</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                <h6 class="mb-2">Contact Us</h6>
+                <a href="mailto:email@example.com" class="fw-medium"
+                  >email@example.com</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+        <p
+          class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0"
+        >
+          &copy; All rights reserved. Made by
+          <a
+            class="nav-link d-inline-block p-0"
+            href="https://createx.studio/"
+            target="_blank"
+            rel="noopener"
+            >Hontrel</a
+          >
+        </p>
+      </div>
+    </footer>
 
 
     <!-- Back to top button -->
