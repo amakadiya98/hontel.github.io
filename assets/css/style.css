@@ -6,6 +6,7 @@
   background-color: #fc6070;
   color: #fff;
   border-color: #fc6070;
+  letter-spacing: 0.6px;
 }
 
 .theme-button:hover {
@@ -43,6 +44,26 @@
   z-index: 1;
 }
 
+.ready-started{
+  background-image: url('../img/ready-back.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.prouct-info-part .product-icon{
+  width: 80px;
+}
+.mega-dropdown-column .product-link{
+  text-decoration: none;
+}
+.mega-dropdown-column .product-link img{
+  width: 200px;
+}
+.mega-dropdown-column .product-link p{
+  color: #000;
+  font-size: 16px;
+}
 @media (max-width: 620px) {
   .item-box-wrapper {
     flex-direction: column;
