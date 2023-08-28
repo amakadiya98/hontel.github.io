@@ -58,11 +58,20 @@
   text-decoration: none;
 }
 .mega-dropdown-column .product-link img{
-  width: 200px;
+  width: 130px;
+}
+.mega-dropdown-column .product-link  h6 sup{
+  font-size: 22px;
+  margin-top: 10px;
 }
 .mega-dropdown-column .product-link p{
   color: #000;
-  font-size: 16px;
+  font-size: 14px;
+}
+.content-filed-data{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 @media (max-width: 620px) {
   .item-box-wrapper {
