@@ -73,6 +73,18 @@
   flex-direction: column;
   justify-content: space-between;
 }
+.banner-content-align{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.table-item-box:hover i, .table-item-box:hover h3{
+  color: #673ab7;
+}
+.table-item-box:hover p{
+  color: #e72892;
+}
+
 @media (max-width: 620px) {
   .item-box-wrapper {
     flex-direction: column;
