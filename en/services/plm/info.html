@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Hontrel</title>
-
+    <link rel="icon" type="image/x-icon" href="../../../assets/favicon/favicon.ico" />
     <!-- SEO Meta Tags-->
     <meta name="description" content="Silicon - Multipurpose Technology Bootstrap Template">
     <meta name="keywords" content="bootstrap, business, creative agency, construction, services, e-commerce, shopping cart, mobile app showcase, multipurpose, shop, ui kit, marketing, seo, landing, html5, css3, javascript, gallery, slider, touch, creative">
@@ -13,22 +13,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Favicon and Touch Icons-->
-    <link rel="apple-touch-icon" sizes="180x180" href="../../../../assets/favicon/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="../../../../assets/favicon/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="../../../../assets/favicon/favicon-16x16.png">
-    <link rel="manifest" href="../../../../assets/favicon/site.webmanifest">
-    <link rel="mask-icon" href="../../../../assets/favicon/safari-pinned-tab.svg" color="#6366f1">
-    <link rel="shortcut icon" href="https://static.wixstatic.com/media/63a415_7edc09684dbf459b9067d65c01a50122~mv2.png/v1/fill/w_32%2Ch_32%2Clg_1%2Cusm_0.66_1.00_0.01/63a415_7edc09684dbf459b9067d65c01a50122~mv2.png">
-    <meta name="msapplication-TileColor" content="#080032">
-    <meta name="msapplication-config" content="../../../../assets/favicon/browserconfig.xml">
+    
     <meta name="theme-color" content="#ffffff">
 
     <!-- Vendor Styles-->
-    <link rel="stylesheet" media="screen" href="../../../../assets/vendor/boxicons/css/boxicons.min.css"/>
-    <link rel="stylesheet" media="screen" href="../../../../assets/vendor/swiper/swiper-bundle.min.css"/>
-
+    <link rel="stylesheet" media="screen" href="../../../assets/vendor/boxicons/css/boxicons.min.css"/>
+    <link rel="stylesheet" media="screen" href="../../../assets/vendor/swiper/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Main Theme Styles + Bootstrap-->
-    <link rel="stylesheet" media="screen" href="../../../../assets/css/theme.min.css">
+    <link rel="stylesheet" media="screen" href="../../../assets/css/theme.min.css">
+    <link rel="stylesheet" href="../../../assets/css/style.css" />
 
     <!-- Page loading styles -->
     <style>
@@ -153,143 +147,465 @@
 
       <!-- Navbar -->
       <!-- Remove "fixed-top" class to make navigation bar scrollable with the page -->
-      <header class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top">
-        <div class="container px-3">
-          <a href="/en/index.html" class="navbar-brand pe-3">
-            <img src="../../../assets/img/logo.png" width="130" alt="Silicon">
-          </a>
-          <div id="navbarNav" class="offcanvas offcanvas-end">
-            <div class="offcanvas-header border-bottom">
-              <h5 class="offcanvas-title">Menu</h5>
-              <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
-                <li class="nav-item">
-                    <a href="/en/aboutus/info.html" class="nav-link">About us</a>
-                  </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle " data-bs-toggle="dropdown" aria-current="page">Product</a>
-                  <div class="dropdown-menu p-0">
-                    <div class="d-lg-flex">
-                      <div class="mega-dropdown-column pt-lg-3 pb-lg-4">
-                        <ul class="list-unstyled mb-0">
-                          <li><a href="#" class="dropdown-item">Intelligent Automation</a></li>
-                          <li><a href="/en/products/iehub/info.html" class="dropdown-item">ELM Solution</a></li>
-                          <li><a href="#" class="dropdown-item">Master Data Management</a></li>
-                        </ul>
-                      </div>
-                      
+      <header
+      class="header navbar navbar-expand-lg bg-light shadow-sm fixed-top"
+    >
+      <div class="container px-3">
+        <a href="../../../en/index.html" class="navbar-brand pe-3">
+          <img src="../../../assets/img/logo.png" width="180px" alt="Silicon" />
+        </a>
+        <div id="navbarNav" class="offcanvas offcanvas-end ms-5">
+          <div class="offcanvas-header border-bottom">
+            <h5 class="offcanvas-title">Menu</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="offcanvas-body">
+            <ul class="navbar-nav mb-2 mb-lg-0">
+             
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Product</a>
+                <div class="dropdown-menu">
+                  <div class="d-lg-flex pt-lg-3">
+                    <div class="mega-dropdown-column">
+                      <a href="../../../en/products/iehub/info.html" class="text-img-part d-flex align-items-start product-link">
+                        <div class="img-part">
+                          <img src="../../../assets/img/ie-hub.jpg" alt="product">
+                        </div>
+                        <div class="text-part ms-3">
+                          <h6 class="mb-2">IEHUB.AI</h6>
+                          <p class="ms-2">Integrated ELM platform for all the engineering needs. Click to know more</p>
+                        </div>
+                      </a>
+                      <a href="../../../en/products/iedgen/info.html" class="text-img-part d-flex align-items-start product-link">
+                        <div class="img-part">
+                          <img src="../../../assets/img/md-gen.jpg" alt="product">
+                        </div>
+                        <div class="text-part ms-3">
+                          <h6 class="mb-2">MDGen</h6>
+                          <p class="ms-2">Standardize your items with technical details. Click to know more</p>
+                        </div>
+                      </a>
+                     
+                    </div>
+                    <div class="mega-dropdown-column">
+                      <a href="../../../en/products/iesearch/info.html" class="text-img-part d-flex align-items-start product-link">
+                        <div class="img-part">
+                          <img src="../../../assets/img/in-search.jpg" alt="product">
+                        </div>
+                        <div class="text-part ms-3">
+                          <h6 class="mb-2">INSearch</h6>
+                          <p class="ms-2">Perform instant search for your confidential information using our pre-trained AI/ML models</p>
+                        </div>
+                      </a>
                     </div>
                   </div>
+                </div>
                 </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
-                  <div class="dropdown-menu">
-                    <div class="d-lg-flex pt-lg-3">
-                        <ul class="list-unstyled mb-3">
-                            <li><a href="/en/services/engg/info.html" class="dropdown-item py-1">Engineering Services</a></li>
-                            <li><a href="/en/services/plm/info.html" class="dropdown-item py-1">Product Life Cycle Management</a></li>
-                            <li><a href="/en/services/AIML/info.html" class="dropdown-item py-1">AI/ML consultation</a></li>
-                          </ul>
-                    </div>
-                  </div>
-                </li>
-                <li class="nav-item dropdown">
-                  <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Markets</a>
-                  <ul class="dropdown-menu">
-                    <li><a href="/en/markets/wwwt/info.html" class="dropdown-item">Water & Wastewater industry</a></li>
-                    <li><a href="/en/markets/og/info.html" class="dropdown-item">Oil & Gas Industries</a></li>
-                    <li><a href="/en/markets/mi/info.html" class="dropdown-item">Marine Industries</a></li>
-                    <li><a href="/en/markets/cpi/info.html" class="dropdown-item">Chemical Process Industries</a></li>
-                  </ul>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Resources</a>
-                    <ul class="dropdown-menu">
-                      <li><a href="/en/resources/news/info.html" class="dropdown-item">News</a></li>
-                      <li><a href="/en/resources/blogs/info.html" class="dropdown-item">Blogs</a></li>
-                      <li><a href="/en/resources/articles/info.html" class="dropdown-item">Articles</a></li>
+              <li class="nav-item dropdown">
+                <a
+                  href="#"
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Services</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-lg-flex pt-lg-3">
+                    <ul class="list-unstyled mb-3">
+                      <li>
+                        <a
+                          href="../../../en/services/engg/info.html"
+                          class="dropdown-item py-1"
+                          >Engineering Services</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../../../en/services/plm/info.html"
+                          class="dropdown-item py-1"
+                          >Product Life Cycle Management</a
+                        >
+                      </li>
+                      <li>
+                        <a
+                          href="../../../en/services/AIML/info.html"
+                          class="dropdown-item py-1"
+                          >AI/ML consultation</a
+                        >
+                      </li>
                     </ul>
-                  </li>
+                  </div>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../../../en/markets/info.html"
+                  class="nav-link"
+                  >Markets</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  href="../../../en/blogs/info.html"
+                  class="nav-link "
+                  >Blogs</a>
                
-              </ul>
-            </div>
-           
-          <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-         
+              </li>
+              <li class="nav-item">
+                <a href="../../../en/aboutus/info.html" class="nav-link">About us</a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <button type="button" class="navbar-toggler" data-bs-toggle="offcanvas" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
       </header>
 
 
-      <section class="container pt-5 mt-5">
-       PLM Services
+      <section class="pt-5 mt-5 services-banner dark-theme-text">
+        <div class="container ">
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="../../../en/index.html"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a></li>
+            <li class="breadcrumb-item"><a href="#">Services</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Product Life cycle Management</li>
+          </ol>
+        </nav>
+        <div class="row mt-5">
+          <div class="col-lg-8 mb-md-0 pb-4 pb-md-0 pt-3 pt-md-0">
+            <div
+              class="content-text"
+            >
+             <h4>Empowering Innovation through Engineering Services <br/> Building Today, Tomorrow.</h3>
+             <p>We have specialized knowledge and experience in various engineering disciplines and supporting our clients with product and project engineering Scroll below, know more about the services.</p>
+            </div>
+          </div>
+        </div>
+        </div>
+      </section>
+      <section class="container pt-1 py-sm-2 pt-md-4 pt-lg-5">
+        <h2 class="heading-text text-center">
+          Value Proposition
+        </h2>
+        <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 mb-2 mb-sm-3">
+
+          <!-- Item -->
+          <div class="col pt-2 pt-md-0 border-end">
+            <div class="text-center px-xl-4">
+              <img src="../../../assets/img/services/6_customized business model.jpg" class="service-top-icon" alt="Icon">
+              <h3 class="h5 mb-2">Flexible Business Model</h3>
+              <p class="fs-lg mb-0">Our business model allow complete flexibility even clients can convert the offshore engineering team into own group</p>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="col pt-2 pt-md-0 border-end">
+            <div class="text-center px-xl-4">
+              <img src="../../../assets/img/services/6_Automation.jpg" class="service-top-icon" alt="Icon">
+              <h3 class="h5 mb-2">Engineering Automation Platforms</h3>
+              <p class="fs-lg mb-0">Our business model allow complete flexibility even clients can convert the offshore engineering team into own group</p>
+            </div>
+          </div>
+
+          <!-- Item -->
+          <div class="col pt-2 pt-md-0 ">
+            <div class="text-center px-xl-4">
+              <img src="../../../assets/img/services/6_expert.jpg" class="service-top-icon" alt="Icon">
+              <h3 class="h5 mb-2">Engineering Expertise</h3>
+              <p class="fs-lg mb-0">Our business model allow complete flexibility even clients can convert the offshore engineering team into own group</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="my-lg-5 my-md-4">
+        <div class="container">
+          <h2 class="heading-text text-center">
+            Our Services
+          </h2>
+          <div class="row mt-5">
+            <div class="col-md-6 mb-4">
+                <div class="service-cards">
+                    <img src="../../../assets/img/services/4_small.jpg" alt="water">
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-card-content mt-3">
+                    <h4 class="heading-text">Project Engineering</h2>
+                    <div class="item-box-wrapper ms-4">
+                      <div class="item-box">
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Front End Engineering Design (FEED)
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          3D Modelling, 20 Drafting
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Detailed Design and Engineering
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          HAZOP Study
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Engineering Costing
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Technical Writing & Document Management
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Industry global class codes and standards
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mb-4">
+              <div class="service-card-content mt-5">
+                <h4 class="heading-text">Project Engineering</h2>
+                <div class="item-box-wrapper ms-4">
+                  <div class="item-box">
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Product Standardization
+                    </div>
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Product Localization
+                    </div>
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Containerized design
+                    </div>
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Value Engineering
+                    </div>
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Technical Writing & Document Management
+                    </div>
+                    <div class="d-flex align-items-center mb-2 heading-text">
+                      <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                      Industry global class codes and standards
+                    </div>
+                  </div>
+                </div>
+            </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-cards">
+                    <img src="../../../assets/img/services/3_small.jpg" alt="water">
+                </div>
+            </div>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6 mb-4">
+                <div class="service-cards">
+                    <img src="../../../assets/img/services/2_small.jpg" alt="water">
+                </div>
+            </div>
+            <div class="col-md-6 mb-4">
+                <div class="service-card-content mt-3">
+                    <h4 class="heading-text">Advanced Engineering</h2>
+                    <div class="item-box-wrapper ms-4">
+                      <div class="item-box">
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Structural Engineering
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Finite Element Analysis
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Computational Fluid Dynamics
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Review and Checking of Design
+                        </div>
+                        <div class="d-flex align-items-center mb-2 heading-text">
+                          <i class="bx bx-check-circle fs-xl text-primary me-2"></i>
+                          Industry global class codes and standards
+                        </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="bg-secondary py-5 ready-started mt-5">
+        <div class="container text-center py-1 py-md-4 py-lg-5">
+          <h2 class="h1 mb-4 text-light">Connect with us</h2>
+          <a href="mailto:engineering@hontrel.com" class="text-light" style="text-decoration: none;" >engineering@hontrel.com</a>
+        </div>
       </section>
     </main>
 
     <!-- Footer -->
-    <footer class="footer dark-mode bg-dark border-top border-light pt-5 pb-4 pb-lg-5">
-        <div class="container pt-lg-4">
-          <div class="row pb-5">
-            <div class="col-lg-4 col-md-6">
-              <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
-                <img src="../../../../assets/img/logo.png" width="130" alt="Silicon" >
-              </div>
-              <p class="fs-sm pb-lg-3 mb-4">Proin ipsum pharetra, senectus eget scelerisque varius pretium platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget elementum dolor ullamcorper sodales ultrices eros.</p>
-              <form class="needs-validation" novalidate>
-                <label for="subscr-email" class="form-label">Subscribe to our newsletter</label>
-                <div class="input-group">
-                  <input type="email" id="subscr-email" class="form-control rounded-start ps-5" placeholder="Your email" required>
-                  <i class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"></i>
-                  <div class="invalid-tooltip position-absolute top-100 start-0">Please provide a valid email address.</div>
-                  <button type="submit" class="btn btn-primary">Subscribe</button>
-                </div>
-              </form>
+    <footer class="footer border-top pt-5 pb-4 pb-lg-5">
+      <div class="container pt-lg-4">
+        <div class="row pb-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="navbar-brand text-dark p-0 me-0 mb-3 mb-lg-4">
+              <img src="../../../assets/img/logo.png" width="180" alt="Silicon" />
             </div>
-            <div class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0">
-              <div id="footer-links" class="row">
-                <div class="col-lg-4">
-                  <h6 class="mb-2">
-                    <a href="#useful-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Useful Links</a>
-                  </h6>
-                  <div id="useful-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                    <ul class="nav flex-column pb-lg-1 mb-lg-3">
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">About Us</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Product</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Services</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Markets</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Resources</a></li>
-                    </ul>
-                  </div>
+            <p class="fs-sm pb-lg-3 mb-4">
+              Proin ipsum pharetra, senectus eget scelerisque varius pretium
+              platea velit. Lacus, eget eu vitae nullam proin turpis etiam mi
+              sit. Non feugiat feugiat egestas nulla nec. Arcu tempus, eget
+              elementum dolor ullamcorper sodales ultrices eros.
+            </p>
+            <form class="needs-validation" novalidate>
+              <label for="subscr-email" class="form-label"
+                >Subscribe to our newsletter</label
+              >
+              <div class="input-group">
+                <input
+                  type="email"
+                  id="subscr-email"
+                  class="form-control rounded-start ps-5"
+                  placeholder="Your email"
+                  required
+                />
+                <i
+                  class="bx bx-envelope fs-lg text-muted position-absolute top-50 start-0 translate-middle-y ms-3 zindex-5"
+                ></i>
+                <div class="invalid-tooltip position-absolute top-100 start-0">
+                  Please provide a valid email address.
                 </div>
-                <div class="col-xl-4 col-lg-3">
-                  <h6 class="mb-2">
-                    <a href="#social-links" class="d-block text-dark dropdown-toggle d-lg-none py-2" data-bs-toggle="collapse">Socials</a>
-                  </h6>
-                  <div id="social-links" class="collapse d-lg-block" data-bs-parent="#footer-links">
-                    <ul class="nav flex-column mb-2 mb-lg-0">
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Facebook</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">LinkedIn</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Twitter</a></li>
-                      <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Instagram</a></li>
-                    </ul>
-                  </div>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+              </div>
+            </form>
+          </div>
+          <div
+            class="col-xl-6 col-lg-7 col-md-5 offset-xl-2 offset-md-1 pt-4 pt-md-1 pt-lg-0"
+          >
+            <div id="footer-links" class="row">
+              <div class="col-lg-4">
+                <h6 class="mb-2">
+                  <a
+                    href="#useful-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Useful Links</a
+                  >
+                </h6>
+                <div
+                  id="useful-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column pb-lg-1 mb-lg-3">
+                    <li class="nav-item">
+                      <a href="../../blogs/info.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >About Us</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Product</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Services</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../markets/info.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Markets</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="../../blogs/info.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Blogs</a
+                      >
+                    </li>
+                  </ul>
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
+                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
+                  </ul>
                 </div>
-                <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
-                  <h6 class="mb-2">Contact Us</h6>
-                  <a href="mailto:email@example.com" class="fw-medium">email@example.com</a>
+              </div>
+              <div class="col-xl-4 col-lg-3">
+                <h6 class="mb-2">
+                  <a
+                    href="#social-links"
+                    class="d-block text-dark dropdown-toggle d-lg-none py-2"
+                    data-bs-toggle="collapse"
+                    >Socials</a
+                  >
+                </h6>
+                <div
+                  id="social-links"
+                  class="collapse d-lg-block"
+                  data-bs-parent="#footer-links"
+                >
+                  <ul class="nav flex-column mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Facebook</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >LinkedIn</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Twitter</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                        >Instagram</a
+                      >
+                    </li>
+                  </ul>
                 </div>
+              </div>
+              <div class="col-xl-4 col-lg-5 pt-2 pt-lg-0">
+                <h6 class="mb-2">Contact Us</h6>
+                <a href="mailto:email@example.com" class="fw-medium"
+                  >email@example.com</a
+                >
               </div>
             </div>
           </div>
-          <p class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0">
-            &copy; All rights reserved. Made by 
-            <a class="nav-link d-inline-block p-0" href="https://createx.studio/" target="_blank" rel="noopener">Createx Studio</a>
-          </p>
         </div>
-      </footer>
+        <p
+          class="nav d-block fs-xs text-center text-md-start pb-2 pb-lg-0 mb-0"
+        >
+          &copy; All rights reserved. Made by
+          <a
+            class="nav-link d-inline-block p-0"
+            href="https://createx.studio/"
+            target="_blank"
+            rel="noopener"
+            >Hontrel</a
+          >
+        </p>
+      </div>
+    </footer>
 
 
     <!-- Back to top button -->
@@ -300,13 +616,13 @@
 
 
     <!-- Vendor Scripts -->
-    <script src="../../../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="../../../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
-    <script src="../../../../assets/vendor/rellax/rellax.min.js"></script>
-    <script src="../../../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
-    <script src="../../../../assets/vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="../../../assets/vendor/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../../../assets/vendor/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="../../../assets/vendor/rellax/rellax.min.js"></script>
+    <script src="../../../assets/vendor/@lottiefiles/lottie-player/dist/lottie-player.js"></script>
+    <script src="../../../assets/vendor/swiper/swiper-bundle.min.js"></script>
 
     <!-- Main Theme Script -->
-    <script src="../../../../assets/js/theme.min.js"></script>
+    <script src="../../../assets/js/theme.min.js"></script>
   </body>
 </html>
