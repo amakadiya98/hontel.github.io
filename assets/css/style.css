@@ -51,6 +51,14 @@
   background-size: cover;
   position: relative;
 }
+.ready-started.career-started{
+  background-image: url('../img/career-started.jpeg');
+  background-attachment: fixed;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .prouct-info-part .product-icon{
   width: 80px;
 }
@@ -107,10 +115,49 @@
   height: 600px;
   margin-top: 20px;
 }
+.about-banner{
+  background-image: url('../img/about-us-banner.jpeg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 20px;
+}
+.about-us-tag{
+  position: absolute;
+  right: 10px;
+  bottom: 0;
+  width: 100%;
+  max-width: 100%;
+  text-align: right;
+  font-weight: 600;
+}
+.leadership-text-content .card, .adviser-text-content .card{
+  box-shadow: 0 0.275rem 0.75rem -0.0625rem rgba(11,15,25,.06), 0 0.125rem 0.4rem -0.0625rem rgba(11,15,25,.03);
+}
 .dark-theme-text a, .dark-theme-text a:hover{
   color: #fff;
 }
-
+.about-first-section .nav-item a{
+  color: #000;
+}
+.about-first-section .nav-item:first-child a{
+  background-color: #c21e254a;
+}
+.about-first-section .nav-item:first-child a.active{
+  background-color: #c21e25;
+}
+.about-first-section .nav-item:nth-child(2) a{
+  background-color: #855ba54a;
+}
+.about-first-section .nav-item:nth-child(2) a.active{
+  background-color: #855ba5;
+}
+.about-first-section .nav-item:last-child a{
+  background-color: #3f4ea14a;
+}
+.about-first-section .nav-item:last-child a.active{
+  background-color: #3f4ea1;
+}
 .dark-theme-text .breadcrumb-item.active{
   color: #fff;
 }
