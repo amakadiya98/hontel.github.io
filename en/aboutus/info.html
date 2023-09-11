@@ -336,10 +336,18 @@
         <h2 class="heading-text text-center">
           Leadership Team
         </h2>
+        <div class="d-flex align-items-center">
+        <button type="button" id="prev-brand" class="btn btn-prev btn-icon btn-sm me-2">
+          <i class="bx bx-chevron-left"></i>
+        </button>
         <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
           "slidesPerView": 1,
           "spaceBetween": 8,
           "loop": true,
+          "navigation": {
+            "prevEl": "#prev-brand",
+            "nextEl": "#next-brand"
+          },
           "pagination": {
             "el": ".swiper-pagination",
             "clickable": true
@@ -362,6 +370,8 @@
             }
           }
         }'>
+         
+         
           <div class="swiper-wrapper">
 
             <!-- Item -->
@@ -483,9 +493,13 @@
               </div>
             </div>
           </div>
-
+          
           <!-- Pagination (bullets) -->
           <div class="swiper-pagination position-relative pt-3 mt-3"></div>
+        </div>
+        <button type="button" id="next-brand" class="btn btn-next btn-icon btn-sm ms-2">
+          <i class="bx bx-chevron-right"></i>
+        </button>
         </div>
         <p id="leadership-text-content" class="para-text mt-5 mb-0">Ralph</p>
       </section>
@@ -493,10 +507,18 @@
         <h2 class="heading-text text-center">
           Advisory Team
         </h2>
+        <div class="d-flex align-items-center">
+        <button type="button" id="prev-brand" class="btn btn-prev btn-icon btn-sm me-2">
+          <i class="bx bx-chevron-left"></i>
+        </button>
         <div class="swiper mx-0 mb-md-n2 mb-xxl-n3" data-swiper-options='{
           "slidesPerView": 1,
           "spaceBetween": 8,
           "loop": true,
+          "navigation": {
+            "prevEl": "#prev-brand",
+            "nextEl": "#next-brand"
+          },
           "pagination": {
             "el": ".swiper-pagination",
             "clickable": true
@@ -644,6 +666,10 @@
           <!-- Pagination (bullets) -->
           <div class="swiper-pagination position-relative pt-3 mt-3"></div>
         </div>
+        <button type="button" id="next-brand" class="btn btn-next btn-icon btn-sm ms-2">
+          <i class="bx bx-chevron-right"></i>
+        </button>
+        </div>
         <p id="adviser-text-content" class="para-text mt-5">Ralph</p>
       </section>
 
@@ -665,8 +691,11 @@
               <img src="../../assets/img/logo.png" width="180" alt="Silicon" />
             </div>
             <p class="fs-sm pb-lg-3 mb-4">
-             Hontrel is a digital engineering and technology company focused on brining ingenuity in engineering.
+             Hontrel is a digital engineering and technology company focused in continuously applying advanced technologies in the core engineering space and re-think on the conventional methods to bring innovative and sustainable solutions which adds value to our customers, stakeholders and ultimately improves human experience.
             </p>
+            <div class="footer-engineering-logo">
+              <img src="../../assets/img/engineering-logo.jpeg"/>
+            </div>
             <form class="needs-validation" novalidate>
               <label for="subscr-email" class="form-label"
                 >Subscribe to our blogs</label
@@ -719,7 +748,7 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                      <a href="" class="nav-link d-inline-block px-0 pt-1 pb-2"
                         >Services</a
                       >
                     </li>
@@ -735,8 +764,8 @@
                     </li>
                   </ul>
                   <ul class="nav flex-column mb-2 mb-lg-0">
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
-                    <li class="nav-item"><a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
+                    <li class="nav-item"><a href="../../en/termsCondition.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Terms &amp; Conditions</a></li>
+                    <li class="nav-item"><a href="../../en/privacyPolicy.html" class="nav-link d-inline-block px-0 pt-1 pb-2">Privacy Policy</a></li>
                   </ul>
                 </div>
               </div>
@@ -761,7 +790,7 @@
                       >
                     </li>
                     <li class="nav-item">
-                      <a href="#" class="nav-link d-inline-block px-0 pt-1 pb-2"
+                      <a href="https://www.linkedin.com/company/hontrel/" class="nav-link d-inline-block px-0 pt-1 pb-2"
                         >LinkedIn</a
                       >
                     </li>

@@ -1,3 +1,10 @@
+
+
+:root {
+  --si-user-selection-color:lightgray !important;
+  --si-heading-link-color: lightgray !important;
+  --si-heading-link-hover-color: lightgray !important;
+}
 .navbar{
   background-color: #ffff;
 }
@@ -110,6 +117,13 @@
 }
 .services-banner{
   background-image: url('../img/services/1_small.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 600px;
+  margin-top: 20px;
+}
+.services-banner-digital{
+  background-image: url('../img/digital-banner.jpg');
   background-size: cover;
   background-position: center;
   height: 600px;
@@ -253,4 +267,31 @@
   
 }
 
+.navbar-nav{
+  align-items: center;
+}
+.engineering-logo{
+  margin-left: 1rem;
+}
+.engineering-logo img{
+  width: 40%;
+}
+.services-banner-digital.dark-theme-text p{
+  max-width: 60%;
+}
+.footer-engineering-logo{
+  margin-bottom: 1rem;
+  width: 65%;
+  margin-top: -20px;
+}
 
+#screen-1 img{
+  max-width: 80%;
+}
+.swiper-item-data .content-part{
+  text-align: center;
+  align-items: center;
+}
+.price-description{
+  min-height: 110px;
+}
