@@ -2,8 +2,6 @@
 
 :root {
   --si-user-selection-color:lightgray !important;
-  --si-heading-link-color: lightgray !important;
-  --si-heading-link-hover-color: lightgray !important;
 }
 .navbar{
   background-color: #ffff;
@@ -135,6 +133,16 @@
   background-position: center;
   height: 600px;
   margin-top: 20px;
+}
+.blogs-banner{
+  background-image: url('../img/blog/resource.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  margin-top: 20px;
+}
+.blogs-banner h1{
+  font-size: 60px;
 }
 .about-us-tag{
   position: absolute;
@@ -272,9 +280,10 @@
 }
 .engineering-logo{
   margin-left: 1rem;
+  width: 30%;
 }
 .engineering-logo img{
-  width: 40%;
+  width: 70%;
 }
 .services-banner-digital.dark-theme-text p{
   max-width: 60%;
@@ -294,4 +303,7 @@
 }
 .price-description{
   min-height: 110px;
+}
+.accordion-button:not(.collapsed)::after{
+  box-shadow: none;
 }

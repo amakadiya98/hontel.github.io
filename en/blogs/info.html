@@ -242,12 +242,26 @@
                   >Markets</a
                 >
               </li>
-              <li class="nav-item">
+              <li class="nav-item dropdown">
                 <a
                   href="#"
-                  class="nav-link "
-                  >Blogs</a>
-               
+                  class="nav-link dropdown-toggle"
+                  data-bs-toggle="dropdown"
+                  >Resources</a
+                >
+                <div class="dropdown-menu">
+                  <div class="d-lg-flex pt-lg-3">
+                    <ul class="list-unstyled mb-3">
+                      <li>
+                        <a
+                          href="../../en/blogs/info.html"
+                          class="dropdown-item py-1"
+                          >Blogs</a
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
               </li>
               <li class="nav-item">
                 <a href="../../en/aboutus/info.html" class="nav-link">About us</a>
@@ -263,14 +277,27 @@
         </button>
       </div>
         </header>
-        <nav class="container mt-lg-4 pt-5" aria-label="breadcrumb">
-            <ol class="breadcrumb mb-0 pt-5">
-              <li class="breadcrumb-item">
-                <a href="index.html"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a>
-              </li>
-              <li class="breadcrumb-item active" aria-current="page">Blog List</li>
+
+        <section class="pt-5 mt-5 blogs-banner dark-theme-text">
+          <div class="container h-100">
+          <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+              <li class="breadcrumb-item"><a href="../../en/index.html"><i class="bx bx-home-alt fs-lg me-1"></i>Home</a></li>
+              <li class="breadcrumb-item"><a href="#">Resources</a></li>
+              <li class="breadcrumb-item active" aria-current="page">Blogs</li>
             </ol>
           </nav>
+          <div class="row h-100">
+            <div class="col-lg-12 mb-md-0 pb-4 pb-md-0 pt-3 pt-md-0">
+              <div
+                class="content-text"
+              >
+               <h1 class="text-light text-center">Resources</h1>
+              </div>
+            </div>
+          </div>
+          </div>
+        </section>
           <section class="container mt-4 mb-lg-5 pt-lg-2 pb-5">
 
             <!-- Page title + Layout switcher + Search form -->
@@ -284,12 +311,15 @@
                     <div class="d-flex align-items-center">
                      
                       <select class="form-select">
-                        <option>All categories</option>
-                        <option value="processes-and-tools">Processes &amp; Tools</option>
-                        <option value="startups">Startups</option>
-                        <option value="digital">Digital</option>
-                        <option value="strategy">Strategy</option>
-                        <option value="business">Business</option>
+                        <option>Digital Twin</option>
+                        <option value="processes-and-tools">Data Management</option>
+                        <option value="mechanical-engineering">Mechanical Engineering</option>
+                        <option value="electrical-engineering">Electrical Engineering</option>
+                        <option value="process-engineering">Process Engineering</option>
+                        <option value="quality">Quality</option>
+                        <option value="process">Process</option>
+                        <option value="standardization">Standardization</option>
+                        <option value="product">Product</option>
                       </select>
                     </div>
                   </div>
@@ -306,27 +336,25 @@
             <!-- Item -->
             <article class="card border-0 shadow-sm overflow-hidden mb-4">
               <div class="row g-0">
-                <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/01.jpg'); min-height: 15rem;">
-                  <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                  <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later" data-bs-original-title="Read later">
-                    <i class="bx bx-bookmark"></i>
-                  </a>
+                <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/Iso-standard-small.jpg'); min-height: 15rem;">
+                  <a href="./isoStandard.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
                 </div>
                 <div class="col-sm-8">
                   <div class="card-body">
                     <div class="d-flex align-items-center mb-3">
-                      <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                      <span class="fs-sm text-muted border-start ps-3 ms-3">Sep 3, 2021</span>
+                      <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Standardization</a>
+                      <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none ms-2">Digital Twin</a>
+                      <span class="fs-sm text-muted border-start ps-3 ms-3">August 2023</span>
                     </div>
                     <h3 class="h4">
-                      <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
+                      <a href="./isoStandard.html">Why standardized descriptions are so important for your organization?</a>
                     </h3>
-                    <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
+                    <p>Let me start with a question, how would you describe your name shortly ? I cannot imagine the scenario where your short description of the name matches with multiple people and who to recognize for. A good description goes a long way – no pun intended. Whether it makes sense for everyone is a whole another matter.</p>
                     <hr class="my-4">
                     <div class="d-flex align-items-center justify-content-between">
                       <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
-                        <img src="../../assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                        Jerome Bell
+                        <img src="../../assets/img/small-logo.png" class="rounded-circle me-3" width="28" alt="Avatar">
+                        Karthik S
                       </a>
                     </div>
                   </div>
@@ -336,131 +364,37 @@
 
             <!-- Item -->
             <article class="card border-0 shadow-sm overflow-hidden mb-4">
-                <div class="row g-0">
-                  <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/01.jpg'); min-height: 15rem;">
-                    <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                    <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later" data-bs-original-title="Read later">
-                      <i class="bx bx-bookmark"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center mb-3">
-                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                        <span class="fs-sm text-muted border-start ps-3 ms-3">Sep 3, 2021</span>
-                      </div>
-                      <h3 class="h4">
-                        <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                      </h3>
-                      <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
-                      <hr class="my-4">
-                      <div class="d-flex align-items-center justify-content-between">
-                        <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
-                          <img src="../../assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                          Jerome Bell
-                        </a>
-                      </div>
+              <div class="row g-0">
+                <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/data-small.jpg'); min-height: 15rem;">
+                  <a href="./dataStandard.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
+                </div>
+                <div class="col-sm-8">
+                  <div class="card-body">
+                    <div class="d-flex align-items-center mb-3">
+                      <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Data Management</a>
+                      <span class="fs-sm text-muted border-start ps-3 ms-3">September 2023</span>
+                    </div>
+                    <h3 class="h4">
+                      <a href="./dataStandard.html">Are you struggling with inconsistency on your engineering data across locations ?</a>
+                    </h3>
+                    <p>Creating standardized engineering data, mainly the part descriptions might seem like a straightforward task, but it comes with its own set of challenges. Here's what I think are some of the difficulties</p>
+                    <hr class="my-4">
+                    <div class="d-flex align-items-center justify-content-between">
+                      <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
+                        <img src="../../assets/img/small-logo.png" class="rounded-circle me-3" width="28" alt="Avatar">
+                        Karthik S
+                      </a>
                     </div>
                   </div>
                 </div>
-              </article>
+              </div>
+            </article>
 
-              <!-- Item -->
-            <article class="card border-0 shadow-sm overflow-hidden mb-4">
-                <div class="row g-0">
-                  <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/01.jpg'); min-height: 15rem;">
-                    <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                    <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later" data-bs-original-title="Read later">
-                      <i class="bx bx-bookmark"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center mb-3">
-                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                        <span class="fs-sm text-muted border-start ps-3 ms-3">Sep 3, 2021</span>
-                      </div>
-                      <h3 class="h4">
-                        <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                      </h3>
-                      <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
-                      <hr class="my-4">
-                      <div class="d-flex align-items-center justify-content-between">
-                        <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
-                          <img src="../../assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                          Jerome Bell
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item -->
-            <article class="card border-0 shadow-sm overflow-hidden mb-4">
-                <div class="row g-0">
-                  <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/01.jpg'); min-height: 15rem;">
-                    <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                    <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later" data-bs-original-title="Read later">
-                      <i class="bx bx-bookmark"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center mb-3">
-                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                        <span class="fs-sm text-muted border-start ps-3 ms-3">Sep 3, 2021</span>
-                      </div>
-                      <h3 class="h4">
-                        <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                      </h3>
-                      <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
-                      <hr class="my-4">
-                      <div class="d-flex align-items-center justify-content-between">
-                        <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
-                          <img src="../../assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                          Jerome Bell
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
-
-              <!-- Item -->
-            <article class="card border-0 shadow-sm overflow-hidden mb-4">
-                <div class="row g-0">
-                  <div class="col-sm-4 position-relative bg-position-center bg-repeat-0 bg-size-cover" style="background-image: url('../../assets/img/blog/01.jpg'); min-height: 15rem;">
-                    <a href="blog-single.html" class="position-absolute top-0 start-0 w-100 h-100" aria-label="Read more"></a>
-                    <a href="#" class="btn btn-icon btn-light bg-white border-white btn-sm rounded-circle position-absolute top-0 end-0 zindex-5 me-3 mt-3" data-bs-toggle="tooltip" data-bs-placement="left" aria-label="Read later" data-bs-original-title="Read later">
-                      <i class="bx bx-bookmark"></i>
-                    </a>
-                  </div>
-                  <div class="col-sm-8">
-                    <div class="card-body">
-                      <div class="d-flex align-items-center mb-3">
-                        <a href="#" class="badge fs-sm text-nav bg-secondary text-decoration-none">Processes &amp; Tools</a>
-                        <span class="fs-sm text-muted border-start ps-3 ms-3">Sep 3, 2021</span>
-                      </div>
-                      <h3 class="h4">
-                        <a href="blog-single.html">5 Bad Landing Page Examples &amp; How We Would Fix Them</a>
-                      </h3>
-                      <p>Tellus sagittis dolor pellentesque vel porttitor magna aliquet arcu. Interdum risus mauris pulvinar et vel. Morbi tellus, scelerisque vel metus. Scelerisque arcu egestas ac commodo, ac nibh. Pretium ac elit sed nulla nec.</p>
-                      <hr class="my-4">
-                      <div class="d-flex align-items-center justify-content-between">
-                        <a href="#" class="d-flex align-items-center fw-bold text-dark text-decoration-none me-3">
-                          <img src="../../assets/img/avatar/01.jpg" class="rounded-circle me-3" width="48" alt="Avatar">
-                          Jerome Bell
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </article>
+            
     
     
             <!-- Pagination -->
-            <nav aria-label="Page navigation example">
+            <!-- <nav aria-label="Page navigation example">
               <ul class="pagination justify-content-center pt-lg-3 pt-1">
                 <li class="page-item">
                   <a href="#" class="page-link">
@@ -491,7 +425,7 @@
                   </a>
                 </li>
               </ul>
-            </nav>
+            </nav> -->
           </section>
     </main>
 
@@ -572,7 +506,7 @@
                     </li>
                     <li class="nav-item">
                       <a href="../../en/blogs/info.html" class="nav-link d-inline-block px-0 pt-1 pb-2"
-                        >Blogs</a
+                        >Resources</a
                       >
                     </li>
                   </ul>
