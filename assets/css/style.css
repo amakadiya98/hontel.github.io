@@ -74,8 +74,9 @@
   width: 130px;
 }
 .mega-dropdown-column .product-link  h6 sup{
-  font-size: 22px;
-  margin-top: 10px;
+  font-size: 12px;
+  margin-top: 0px;
+  margin-left: 0px !important;
 }
 .mega-dropdown-column .product-link p{
   color: #000;
@@ -222,7 +223,7 @@
     margin-bottom: 10px;
 }
 .first-banner{
-  background-image: url('../../assets/img/home-banner.jpeg');
+  background-image: url('../../assets/img/home-banner-2.jpeg');
   background-size: cover;
   height: 600px;
   text-align: right;
@@ -280,17 +281,20 @@
 }
 .engineering-logo{
   margin-left: 1rem;
-  width: 30%;
+  /* width: 30%; */
+  position: absolute;
+    right: 6px;
+    top: 6px;
 }
 .engineering-logo img{
-  width: 70%;
+  /* width: 70%; */
 }
 .services-banner-digital.dark-theme-text p{
   max-width: 60%;
 }
 .footer-engineering-logo{
   margin-bottom: 1rem;
-  width: 65%;
+  /* width: 65%; */
   margin-top: -20px;
 }
 
@@ -306,4 +310,8 @@
 }
 .accordion-button:not(.collapsed)::after{
   box-shadow: none;
+}
+.team-slider-card img{
+  width: 160px;
+  height: 160px;
 }
